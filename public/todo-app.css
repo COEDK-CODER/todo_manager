@@ -1,0 +1,146 @@
+.TodoPageMain {
+  font-family: OpenSans-Semibold;
+  max-width: 1024px;
+  max-height: 517px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.TodoPage-title {
+  font-weight: bolder;
+  width: 160px;
+  height: 27px;
+  margin: 0 568px 12px 327px;
+  font-size: 20px;
+  color: #453C52;
+  letter-spacing: 0.14px;
+}
+
+.AddTodo {
+  height: 32px;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.AddTodo-text {
+  margin: 0px 10px 0px 324px;
+  background: #FFFFFF;
+  border: 1px solid #BFB8CC;
+  border-radius: 4px;
+  height: 17px;
+  width: 190px;
+  padding: 6px 12px;
+}
+
+.AddTodo-Date {
+  background: #FFFFFF;
+  border: 1px solid #BFB8CC;
+  border-radius: 4px;
+  color: #726A7E;
+  margin-right: 11px;
+  padding: 2px 2px;
+}
+
+.AddTodo-Button {
+  background: #48BB78;
+  border-radius: 4px;
+  font-family: OpenSans-Semibold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.1px;
+  width: 100px;
+  padding: 0px;
+}
+
+.TodoItem-Duedate {
+  font-size: 12px;
+  color: #726A7E;
+  letter-spacing: 0.09px;
+  margin-left: 10px;
+}
+
+.TodoItem-Trashbin {
+  width: 11.2px;
+  height: 11.2px;
+  border: #453C52;
+}
+
+.TodoItem-delete {
+  width: 16px;
+}
+
+.AddTodoSection {
+  background: #FFFFFF;
+  border: 1px solid #BFB8CC;
+  border-radius: 4px;
+  border-radius: 4px;
+  display: flex;
+}
+
+.TodoItem {
+  display: inline-flex;
+}
+
+.TodoItem-Container {
+  font-size: 14px;
+  color: #453C52;
+  letter-spacing: 0.1px;
+  height: 19px;
+  align-items: center;
+  margin: 0px 488px 16px 347px;
+  display: flex;
+  width: 300px;
+}
+
+.TodoItem-Checkbox {
+  height: 14px;
+  width: 14px;
+  margin-right: 8px;
+}
+
+.TodoItem-Status {
+  font-size: 12px;
+  color: #C53030;
+  letter-spacing: 0.09px;
+  margin-left: 8px;
+  align-items: center;
+}
+
+.TodoSectionTitle {
+  display: flex;
+  margin: 0px 500px 0px 328px;
+}
+
+.TodoSectionTitle-text {
+  font-size: initial;
+  color: #453C52;
+  letter-spacing: 0.1px;
+  height: 19px;
+  margin: 0px 8px 11px 0px;
+  font-weight: bold;
+}
+
+.TodoSectionTitle-RemainingCount {
+  font-size: 12px;
+  color: #453C52;
+  letter-spacing: 0.09px;
+  height: 17px;
+  padding-top: 2px;
+}
+
+.TodoItem-Container:hover {
+  background-color: #f1edf7;
+}
+
+.TodoItem-delete > img {
+  width 16px;
+}
+
+.TodoItem-delete {
+  visibility: hidden;
+  margin-left: 8px;
+}
+
+.TodoItem-Container:hover .TodoItem-delete {
+  visibility: visible;
+}
