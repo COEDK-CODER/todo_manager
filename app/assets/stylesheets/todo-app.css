@@ -90,6 +90,10 @@
   margin: 0px 488px 16px 347px;
   display: flex;
   width: 300px;
+
+}
+.TodoItem-Line-through{
+  text-decoration-line: line-through;
 }
 
 .TodoItem-Checkbox {
@@ -101,6 +105,7 @@
   font-size: 10px;
   color: #556370;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 .TodoSectionTitle {

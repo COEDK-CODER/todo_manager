@@ -6,6 +6,14 @@ class Todo < ActiveRecord::Base
     "#{id} #{due_date.to_s(:long)} #{todo_text} #{status}"
   end
 
+  def overdue?
+    due_date < Date.today
+  end
+
+  def todo_status
+    completed
+  end
+
   def self.overdue
     all.where(" due_date< ?", Date.today)
   end
