@@ -60,8 +60,7 @@
 }
 
 .TodoItem-Trashbin {
-  width: 11.2px;
-  height: 11.2px;
+
   border: #453C52;
 }
 
@@ -94,6 +93,7 @@
 }
 .TodoItem-Line-through{
   text-decoration-line: line-through;
+  text-decoration-color: #484343;
 }
 
 .TodoItem-Checkbox {
@@ -136,7 +136,9 @@
 }
 
 .TodoItem-delete > img {
-  width: 16px;
+  width: 12px;
+  height: 12px;
+
 }
 
 .TodoItem-delete {
