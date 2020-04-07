@@ -60,7 +60,6 @@
 }
 
 .TodoItem-Trashbin {
-
   border: #453C52;
 }
 
@@ -89,9 +88,9 @@
   margin: 0px 488px 16px 347px;
   display: flex;
   width: 300px;
-
 }
-.TodoItem-Line-through{
+
+.TodoItem-Line-through {
   text-decoration-line: line-through;
   text-decoration-color: #484343;
 }
@@ -101,7 +100,8 @@
   width: 14px;
   margin-right: 8px;
 }
-.TodoItem-due_date{
+
+.TodoItem-due_date {
   font-size: 10px;
   color: #556370;
   margin-left: 10px;
@@ -138,7 +138,6 @@
 .TodoItem-delete > img {
   width: 12px;
   height: 12px;
-
 }
 
 .TodoItem-delete {
