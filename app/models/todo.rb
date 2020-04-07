@@ -28,4 +28,7 @@ class Todo < ActiveRecord::Base
   def self.completed
     all.where("completed= ?", true)
   end
+  def self.not_completed
+    all.where("completed= ?",false)
+  end
 end
