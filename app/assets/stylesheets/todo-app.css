@@ -61,6 +61,8 @@
 
 .TodoItem-Trashbin {
   border: #453C52;
+  width: 12px;
+  height: 12px;
 }
 
 .TodoItem-delete {
