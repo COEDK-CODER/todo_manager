@@ -1,0 +1,28 @@
+.NewUsersPage{
+  width: max-content;
+  margin: 60px auto auto auto;
+  font-family: sans-serif;
+
+}
+.NewUsers-title{
+  font-size: 35px;
+  padding-bottom: 30px;
+
+}
+.Form-section-label{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.Form-section{
+padding-bottom: 15px;
+}
+.Form-section-input{
+  padding: 5px;
+}
+.Form-section-submit{
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+
+}
