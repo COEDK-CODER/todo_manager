@@ -1,5 +1,6 @@
 class TodosController < ApplicationController
   def index
+    @todos = Todo.of_user(current_user)
     render "index"
     #render plain: Todo.order(:due_date).map { |todo| todo.to_formatted_string }.join("\n")
   end
@@ -9,13 +10,16 @@ class TodosController < ApplicationController
   end
 
   def create
-    new_todo = Todo.create!(todo_text: params[:todo_text], due_date: Date.parse(params[:due_date]), completed: "false")
+    Todo.create!(todo_text: params[:todo_text],
+                 due_date: Date.parse(params[:due_date]),
+                 completed: "false",
+                 user_id: current_user.id)
     redirect_to todos_path
     #render plain: "A new todo created successfully with ID_NO #{new_todo.id}"
   end
 
   def update
-    todo = Todo.find(params[:id])
+    todo = Todo.of_user(current_user).find(params[:id])
     todo.completed = params[:completed]
     todo.save!
     redirect_to todos_path
@@ -23,7 +27,7 @@ class TodosController < ApplicationController
   end
 
   def destroy
-    Todo.find(params[:id]).destroy
+    Todo.of_user(current_user).find(params[:id]).destroy
     redirect_to todos_path
   end
 end

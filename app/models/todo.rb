@@ -1,9 +1,15 @@
 require "date"
 
 class Todo < ActiveRecord::Base
+  belongs_to :user
+
   def to_formatted_string
     status = completed ? "[x]" : "[]"
     "#{id} #{due_date.to_s(:long)} #{todo_text} #{status}"
+  end
+
+  def self.of_user(user)
+    all.where(user_id: user.id)
   end
 
   def overdue?

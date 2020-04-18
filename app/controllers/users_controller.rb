@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  skip_before_action :ensure_logged_in
+
   def index
     # render plain: User.all.map { |user| user.to_formatted_string }.join("\n")
   end

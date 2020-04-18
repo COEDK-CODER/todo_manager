@@ -13,4 +13,10 @@ class SessionsController < ApplicationController
       render plain: "bye"
     end
   end
+
+  def destroy
+    session[:current_user_id] = nil
+    @current_user_id = nil
+    redirect_to "/"
+  end
 end

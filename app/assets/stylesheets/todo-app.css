@@ -2,10 +2,12 @@
 
   margin: auto ;
   margin-top: 70px;
-  background-color: darkgray;
+  background-color:#abd4e1;
   color: #0b0318;
   width: 460px;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 .TodoPageMain {
   font-family: OpenSans-Semibold;
