@@ -1,2 +1,4 @@
-<h1>Welcome Todo-Manager</h1>
-<p>Click Here!!...to SignUp</p>
+<h1>Welcome to Todo-Home Page</h1>
+<p>Click Here!!...to <%= link_to "SignUp", new_user_path %> </p>
+<p>Existing User click here <%= link_to "Signin", new_sessions_path %> </p>
+<p><%= @current_user %> </p>

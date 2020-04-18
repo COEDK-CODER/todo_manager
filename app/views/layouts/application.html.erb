@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <% if @current_user %>
+      <p class="TodoUser-credentials"> <%= @current_user.first_name%> </p>
+    <%end%>
     <%= yield %>
   </body>
 </html>

@@ -1,9 +1,17 @@
+.TodoUser-credentials{
+
+  margin: auto ;
+  margin-top: 70px;
+  background-color: darkgray;
+  color: #0b0318;
+  width: 460px;
+  padding: 10px;
+}
 .TodoPageMain {
   font-family: OpenSans-Semibold;
-  max-width: 1024px;
-  max-height: 517px;
-  margin: 0 auto;
-  margin-top: 60px;
+  width: max-content;
+  margin: auto auto;
+  margin-top: 10px;
 }
 
 .TodoPage-title {

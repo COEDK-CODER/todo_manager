@@ -1,0 +1,18 @@
+<div class="NewUsersPage">
+  <p class="NewUsers-title">Sign in into your account</p>
+  <section class="UsersNew">
+    <%=form_with url: sessions_path do |form| %>
+      <div class="Form-section">
+        <p class="Form-section-label">Email Address</p>
+        <%= form.email_field :email , class: "Form-section-input"%>
+      </div>
+      <div class="Form-section">
+        <p class="Form-section-label">Password</p>
+        <%= form.password_field :password , class: "Form-section-input"%>
+      </div>
+      <div class="Form-section">
+        <%= form.submit "Sign-in!" , class: "Form-section-submit"%>
+      </div>
+   <%end%>
+  </section>
+</div>
