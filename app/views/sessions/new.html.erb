@@ -4,11 +4,11 @@
     <%=form_with url: sessions_path do |form| %>
       <div class="Form-section">
         <p class="Form-section-label">Email Address</p>
-        <%= form.email_field :email , class: "Form-section-input"%>
+        <%= form.email_field :email , class: "Form-section-input",placeholder: "Email"%>
       </div>
       <div class="Form-section">
         <p class="Form-section-label">Password</p>
-        <%= form.password_field :password , class: "Form-section-input"%>
+        <%= form.password_field :password , class: "Form-section-input",placeholder: "Password"%>
       </div>
       <div class="Form-section">
         <%= form.submit "Sign-in!" , class: "Form-section-submit"%>
