@@ -10,15 +10,12 @@
   </head>
 
   <body>
-
-    <% if @current_user %>
-      <p class="TodoUser-credentials"> Welcome <%= @current_user.first_name%> !<%= link_to "Sign-out" ,destroy_session_path,method: "delete"%></p>
+    <%if @current_user%>
+      <p class="TodoUser-credentials"> Welcome <%= @current_user.first_name%> !<%= link_to "Sign-out",destroy_session_path,method: "delete"%></p>
     <%end%>
     <% if flash[:error] %>
       <p class="Flash-error"> <%= flash[:error]%></p>
     <% end %>
-
-
-    <%= yield %>
+  <%= yield %>
   </body>
 </html>

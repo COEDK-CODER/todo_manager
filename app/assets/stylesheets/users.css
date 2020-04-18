@@ -1,29 +1,31 @@
-.NewUsersPage{
+.NewUsersPage {
   width: max-content;
   margin: auto;
   font-family: sans-serif;
   margin-top: 60px;
-
 }
-.NewUsers-title{
+
+.NewUsers-title {
   font-size: 35px;
   padding-bottom: 30px;
-
 }
-.Form-section-label{
+
+.Form-section-label {
   font-size: 20px;
   padding-bottom: 5px;
 }
-.Form-section{
-padding-bottom: 15px;
+
+.Form-section {
+  padding-bottom: 15px;
 }
-.Form-section-input{
+
+.Form-section-input {
   padding: 5px;
 }
-.Form-section-submit{
+
+.Form-section-submit {
   background-color: #4CAF50;
   color: white;
   padding: 15px 25px;
   border-radius: 4px;
-
 }
