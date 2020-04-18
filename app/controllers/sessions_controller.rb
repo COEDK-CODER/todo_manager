@@ -10,7 +10,8 @@ class SessionsController < ApplicationController
       session[:current_user_id] = user.id
       redirect_to "/"
     else
-      render plain: "bye"
+      flash[:error] = "Enter a valid email or password!"
+      redirect_to new_sessions_path
     end
   end
 

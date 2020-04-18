@@ -2,6 +2,9 @@ require "date"
 
 class Todo < ActiveRecord::Base
   belongs_to :user
+  validates :todo_text, presence: true
+  validates :todo_text, length: { minimum: 2 }
+  validates :due_date, presence: true
 
   def to_formatted_string
     status = completed ? "[x]" : "[]"

@@ -1,4 +1,5 @@
-<h1>Welcome to Todo-Home Page</h1>
-<p>Click Here!!...to <%= link_to "SignUp", new_user_path %> </p>
-<p>Existing User click here <%= link_to "Signin", new_sessions_path %> </p>
-<p><%= @current_user %> </p>
+<div class="Home">
+<h1 class ="Home-title">Welcome to Todo-Home Page</h1>
+<p class="Home-authenticate">Don't have an account yet ? <%= link_to "Sign up", new_user_path %> </p>
+<p class="Home-authenticate"> Have an account just <%= link_to "Sign in", new_sessions_path %> with your Todo-account</p>
+</div>

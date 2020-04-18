@@ -1,26 +1,15 @@
-.TodoUser-credentials{
 
-  margin: auto ;
-  margin-top: 70px;
-  background-color:#abd4e1;
-  color: #0b0318;
-  width: 460px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-}
 .TodoPageMain {
   font-family: OpenSans-Semibold;
-  width: max-content;
+  width: min-content;
   margin: auto auto;
   margin-top: 10px;
 }
 
 .TodoPage-title {
   font-weight: bolder;
-  width: 160px;
   height: 27px;
-  margin: 0 568px 12px 327px;
+  margin: 15px 568px 12px 327px;
   font-size: 20px;
   color: #453C52;
   letter-spacing: 0.14px;

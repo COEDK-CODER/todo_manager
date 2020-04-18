@@ -1,0 +1,34 @@
+.Home{
+  margin: auto;
+  width: max-content;
+  margin-top: 80px;
+}
+.Home-authenticate{
+  margin-top: 20px;
+  font-size: 20px;
+  color: currentColor;
+  margin-left: 30px;
+}
+.Home-title{
+  margin-top: 40px;
+  font-size: 40px;
+  color: brown;
+}
+.TodoUser-credentials{
+  margin: auto ;
+  width: 460px;
+  background-color:#abd4e1;
+  color: #0b0318;
+  width: 460px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.Flash-error{
+  font-size: 20px;
+  color: darkred;
+  width: max-content;
+  margin-top: 30px;
+  margin-left: 530px;
+}

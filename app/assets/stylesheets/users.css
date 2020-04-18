@@ -1,7 +1,8 @@
 .NewUsersPage{
   width: max-content;
-  margin: 60px auto auto auto;
+  margin: auto;
   font-family: sans-serif;
+  margin-top: 60px;
 
 }
 .NewUsers-title{
