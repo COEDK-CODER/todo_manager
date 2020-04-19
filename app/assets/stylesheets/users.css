@@ -22,6 +22,8 @@
 
 .Form-section-input {
   padding: 5px;
+  width: 60%;
+  box-sizing: border-box;
 }
 
 .Form-section-submit {
