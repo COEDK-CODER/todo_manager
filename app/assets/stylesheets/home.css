@@ -16,10 +16,10 @@
 }
 .TodoUser-credentials{
   margin: auto ;
+  margin-left: 560px;
   width: 460px;
   background-color:#abd4e1;
   color: #0b0318;
-  width: 460px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
